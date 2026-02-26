@@ -10,8 +10,8 @@
 
 Adafruit_NeoPixel strip(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-const char* ssid = "rewrite-c";
-const char* password = "welcome.rewrite";
+const char* ssid = "...";
+const char* password = "...";
 
 WebServer server(80); 
 
