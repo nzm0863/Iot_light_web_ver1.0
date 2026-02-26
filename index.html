@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESP32 Web</title>
+</head>
+<body>
+  <h1>ESP32 Web</h1>
+  <p id="IP">IP</p>
+  <p id="led">LED</p>
+  <button onclick="ledOn()">LED_ON</button>
+  <button onclick="ledOff()">LED_OFF</button>
+  <br>
+  <label for="R">R</label>
+  <select id="R"></select>
+  <label for="G">G</label>
+  <select id="G"></select>
+  <label for="B">B</label>
+  <select id="B"></select>
+  <button onclick="sendColor()">Send</button>
+  <br>
+  <p id="color">Color</p>
+  <br>
+  <input type="color" id="colorPicker" value="#ff0000">
+  <button onclick="sendColorPicker()">Send</button>
+  <p id="sendColorPicker">sendColorPicker</p>
+  <script src="script.js"></script>
+</body>
+</html>
