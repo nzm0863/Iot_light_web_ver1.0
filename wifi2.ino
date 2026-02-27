@@ -86,6 +86,9 @@ void handleColorSet(){
 
 void setup() {
   Serial.begin(115200);
+  WiFi.mode(WIFI_STA);
+  WiFi.disconnect(true);  
+  delay(1000);
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
