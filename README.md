@@ -7,6 +7,11 @@
 <br>
 https://youtube.com/shorts/1yj3Q7_K6Y8
 <br>
+<br>
+振り返り動画
+<br>
+https://www.youtube.com/watch?v=3X3o6YHe7ds
+<br>
 arduinoIDE,ESP32,NeoPixel_LED使用
 
 
